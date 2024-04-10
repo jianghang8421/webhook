@@ -4,7 +4,7 @@ go 1.21
 
 replace (
 	github.com/rancher/aks-operator => github.com/cnrancher/aks-operator v1.1.0-ent-rc6
-	github.com/rancher/rancher/pkg/apis => github.com/cnrancher/pandaria/pkg/apis v0.0.0-20240318032118-d38b68f08e89
+	github.com/rancher/rancher/pkg/apis => github.com/cnrancher/pandaria/pkg/apis v0.0.0-20240409022837-caf7955bb627
 	k8s.io/api => k8s.io/api v0.28.6
 	k8s.io/apiextensions-apiserver => k8s.io/apiextensions-apiserver v0.28.6
 	k8s.io/apimachinery => k8s.io/apimachinery v0.28.6
@@ -41,7 +41,7 @@ require (
 	github.com/rancher/dynamiclistener v0.4.0-rc2
 	github.com/rancher/lasso v0.0.0-20240123150939-7055397d6dfa
 	github.com/rancher/rancher/pkg/apis v0.0.0-20240228182834-6005b4875e92
-	github.com/rancher/rke v1.5.7-rc3
+	github.com/rancher/rke v1.5.7
 	github.com/rancher/wrangler/v2 v2.1.4
 	github.com/sirupsen/logrus v1.9.3
 	github.com/stretchr/testify v1.8.4
@@ -64,7 +64,7 @@ require (
 	github.com/blang/semver/v4 v4.0.0 // indirect
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
 	github.com/cnrancher/ack-operator v0.0.5-0.20240301031542-f503388fe440 // indirect
-	github.com/cnrancher/cce-operator v0.4.5 // indirect
+	github.com/cnrancher/cce-operator v0.4.6 // indirect
 	github.com/cnrancher/tke-operator v0.0.0-20240229091109-62dd98478d65 // indirect
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
 	github.com/emicklei/go-restful/v3 v3.11.0 // indirect
